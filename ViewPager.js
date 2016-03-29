@@ -31,6 +31,7 @@ var ViewPager = React.createClass({
     dataSource: PropTypes.instanceOf(ViewPagerDataSource).isRequired,
     renderPage: PropTypes.func.isRequired,
     onChangePage: PropTypes.func,
+    onClick: PropTypes.func,
     renderPageIndicator: PropTypes.oneOfType([
       PropTypes.func,
       PropTypes.bool
